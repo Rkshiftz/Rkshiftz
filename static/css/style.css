@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+.background {
+    background: url("/static/images/bg.png") no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(3px);
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+}
+.card {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(60, 0, 90, 0.85);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 15px #ff00ff;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.socials img {
+    width: 30px;
+    margin: 10px;
+    filter: invert(1);
+}
+.views {
+    font-size: 14px;
+    color: #ccc;
+}
